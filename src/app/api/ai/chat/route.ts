@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import ZAI, { ChatMessage } from 'z-ai-web-dev-sdk';
 
+// Force Node.js runtime for Vercel
+export const runtime = 'nodejs';
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -53,7 +56,7 @@ export async function POST(request: NextRequest) {
     const reply = response.choices?.[0]?.message?.content;
     
     if (!reply) {
-      console.error('No reply from AI:', JSON.stringify(response));
+      console.error('No reply from AI');
       return NextResponse.json({ 
         message: language === 'ar' ? 'عذراً، لم أتمكن من الرد.' : 'Sorry, no response generated.'
       });
