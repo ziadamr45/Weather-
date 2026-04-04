@@ -5,7 +5,7 @@ import { useI18n } from '@/lib/i18n';
 import { motion } from 'framer-motion';
 import { Star, Bell, Search, X } from 'lucide-react';
 import { useState } from 'react';
-import { SearchBar } from './SearchBar';
+import { SearchBar } from '@/components/weather/SearchBar';
 
 export function Header() {
   const { currentLocation, favorites, addFavorite, removeFavorite, isFavorite, currentWeather } = useWeatherStore();
