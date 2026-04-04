@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import ZAI, { ChatMessage } from 'z-ai-web-dev-sdk';
+import ZAI from 'z-ai-web-dev-sdk';
 
 // Force Node.js runtime for Vercel
 export const runtime = 'nodejs';
@@ -36,33 +36,31 @@ export async function POST(request: NextRequest) {
       ? `أنت مساعد طقس ذكي اسمه SkyPulse. أجب على أسئلة المستخدم عن الطقس بشكل مختصر ومفيد.${contextText}`
       : `You are SkyPulse, a friendly weather AI assistant. Answer weather questions concisely and helpfully.${contextText}`;
 
-    const messages: ChatMessage[] = [
-      {
-        role: 'assistant',
-        content: systemContent
-      },
-      {
-        role: 'user',
-        content: message
-      }
-    ];
-
-    const response = await zai.chat.completions.create({
-      messages,
-      stream: false,
+    // Use the exact pattern from the LLM skill documentation
+    const completion = await zai.chat.completions.create({
+      messages: [
+        {
+          role: 'assistant',
+          content: systemContent
+        },
+        {
+          role: 'user',
+          content: message
+        }
+      ],
       thinking: { type: 'disabled' }
     });
 
-    const reply = response.choices?.[0]?.message?.content;
+    const response = completion.choices[0]?.message?.content;
     
-    if (!reply) {
-      console.error('No reply from AI');
+    if (!response || response.trim().length === 0) {
+      console.error('Empty response from AI');
       return NextResponse.json({ 
         message: language === 'ar' ? 'عذراً، لم أتمكن من الرد.' : 'Sorry, no response generated.'
       });
     }
 
-    return NextResponse.json({ message: reply });
+    return NextResponse.json({ message: response });
     
   } catch (error: any) {
     console.error('AI Chat error:', error?.message || error);
