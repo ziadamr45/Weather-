@@ -2,8 +2,8 @@
 
 # 🌤️ تطبيق الطقس | Weather App
 
-### تطبيق ويب احترافي لمعرفة حالة الطقس مدعوم بالذكاء الاصطناعي (Next.js Frontend)
-### AI-powered professional weather web app with smart forecasts, bilingual UI & beautiful animations
+### تطبيق ويب احترافي لمعرفة حالة الطقس بتحليلات طقس متقدمة (Next.js Frontend)
+### Professional weather web app with smart forecasts, bilingual UI & beautiful animations
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-0a5c5c?style=for-the-badge&logo=vercel&logoColor=white)](https://weather-sand-phi.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ziadamr45/Weather-)
@@ -16,13 +16,13 @@
 
 <div dir="rtl">
 
-**تطبيق الطقس** هو تطبيق ويب احترافي لمعرفة حالة الطقس مدعوم بالكامل بالذكاء الاصطناعي. يوفر توقعات دقيقة وتحليلات مناخية مع واجهة ثنائية اللغة (عربية/إنجليزية) وتصميم جذاب مع حركات سلسة.
+**تطبيق الطقس** هو تطبيق ويب احترافي لمعرفة حالة الطقس بتحليلات طقس متقدمة ودقيقة. يوفر توقعات دقيقة وتحليلات مناخية مع واجهة ثنائية اللغة (عربية/إنجليزية) وتصميم جذاب مع حركات سلسة.
 
 > ⚠️ **ملاحظة**: هذا تطبيق ويب (Frontend) مبني بـ Next.js و TypeScript. اللغة الرئيسية في GitHub قد تظهر كـ Python بسبب وجود سكربتات مساعدة، لكن واجهة التطبيق الأساسية مبنية بالكامل بـ Next.js.
 
 </div>
 
-**Weather App** is a professional weather web application fully powered by AI. It provides accurate forecasts and climate analysis with a bilingual interface (Arabic/English) and beautiful smooth animations.
+**Weather App** is a professional weather web application with advanced weather analysis. It provides accurate forecasts and climate analysis with a bilingual interface (Arabic/English) and beautiful smooth animations.
 
 > ⚠️ **Note**: This is a web application (Frontend) built with Next.js and TypeScript. The primary language on GitHub may show as Python due to helper scripts, but the main application interface is built entirely with Next.js.
 
@@ -33,11 +33,11 @@
 | الميزة | Feature |
 |--------|---------|
 | 🌤️ توقعات طقس دقيقة | Accurate weather forecasts |
-| 🤖 تحليلات ذكية بالذكاء الاصطناعي | AI-powered smart analysis |
+| 🤖 تحليلات طقس ذكية ومتقدمة | Smart weather analysis |
 | 🌍 ثنائي اللغة (عربي/إنجليزي) | Bilingual UI (Arabic/English) |
 | 📊 رسوم بيانية تفاعلية | Interactive charts & graphs |
 | 🎨 حركات وأنيميشن سلسة | Smooth animations (Framer Motion) |
-| 💬 مساعد ذكي للطقس | AI weather chat assistant |
+| 💬 مساعد ذكي للطقس | Smart weather assistant |
 | 📍 تحديد الموقع التلقائي | Auto location detection |
 | 🔔 تنبيهات حالة الطقس | Weather alerts & notifications |
 | ⭐ المفضلة — حفظ المواقع | Favorites — save locations |
