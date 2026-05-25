@@ -22,7 +22,11 @@ export const metadata: Metadata = {
   keywords: ["SkyPulse", "Weather", "AI", "Real-time", "Forecast", "Arabic"],
   authors: [{ name: "SkyPulse Team" }],
   icons: {
-    icon: "/logo.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/logo.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-icon.png",
   },
   openGraph: {
     title: "SkyPulse - Ultra Smart Weather",
