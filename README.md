@@ -1,58 +1,91 @@
+<div align="center">
+
+
+## 📸 لقطات الشاشة | Screenshots
+
+![Screenshot](screenshot.png)
+
 # 🌤️ تطبيق الطقس | Weather App
 
-[![License](https://img.shields.io/badge/License-Source_Available-blue)](LICENSE.md)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue)]()
-[![Website](https://img.shields.io/website?url=https://weather-app-z-i-a-d.vercel.app)](https://weather-app-z-i-a-d.vercel.app)
+### تطبيق ويب احترافي لمعرفة حالة الطقس بتحليلات طقس متقدمة
+### Professional weather web app with smart forecasts, bilingual UI & beautiful animations
 
-> تطبيق ويب احترافي لمعرفة حالة الطقس بتحليلات طقس متقدمة
-> Professional weather web app with smart forecasts, bilingual UI & beautiful animations
+[![Live Demo](https://img.shields.io/badge/Live-Demo-0a5c5c?style=for-the-badge&logo=vercel&logoColor=white)](https://weather-app-z-i-a-d.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ziadamr45/Weather-App)
 
-![Weather-App Screenshot](screenshot.png)
+</div>
 
 ---
 
-## 🇪🇬 العربية
+## 📖 نبذة
 
-### المميزات
+<div dir="rtl">
 
-- 🌤️ **توقعات طقس دقيقة** — توقعات مناخية دقيقة وموثوقة
-- 🤖 **تحليلات طقس ذكية ومتقدمة** — تحليلات ذكية ومتقدمة للطقس
-- 🌍 **ثنائي اللغة (عربي/إنجليزي)** — واجهة بالعربية والإنجليزية
-- 📊 **رسوم بيانية تفاعلية** — مخططات ورسوم بيانية تفاعلية
-- 🎨 **حركات وأنيميشن سلسة** — أنيميشن سلسة بـ Framer Motion
-- 💬 **مساعد ذكي للطقس** — مساعد ذكي للطقس
-- 📍 **تحديد الموقع التلقائي** — كشف الموقع تلقائيًا
-- 🔔 **تنبيهات حالة الطقس** — تنبيهات وإشعارات حالة الطقس
-- ⭐ **المفضلة — حفظ المواقع** — احفظ مواقعك المفضلة
-- 📱 **تصميم متجاوب** — يعمل على جميع الأجهزة
-- 🌙 **وضع داكن/فاتح** — اختر المظهر المناسب لك
+**تطبيق الطقس** هو تطبيق ويب احترافي لمعرفة حالة الطقس مع توقعات ذكية ومتقدمة. يوفر التطبيق مساعد ذكي للطقس يجيب على استفساراتك، رسوم بيانية تفاعلية لعرض البيانات المناخية، ودعم ثنائي اللغة بالعربية والإنجليزية. يتميز التطبيق بحركات وأنيميشن سلسة، تحديد موقع تلقائي، تنبيهات حالة الطقس، وإمكانية حفظ المواقع المفضلة. مبني باستخدام Next.js و TypeScript لتجربة سريعة وموثوقة.
 
-### التقنيات
+</div>
 
-- Next.js، TypeScript، Tailwind CSS، shadcn/ui، Prisma، Framer Motion، Vercel
+## ✨ المميزات
+
+| الميزة | الوصف |
+|--------|-------|
+| 🌤️ توقعات طقس دقيقة | توقعات مناخية دقيقة وموثوقة |
+| 🤖 تحليلات طقس ذكية ومتقدمة | تحليلات ذكية ومتقدمة للطقس |
+| 🌍 ثنائي اللغة (عربي/إنجليزي) | واجهة بالعربية والإنجليزية |
+| 📊 رسوم بيانية تفاعلية | مخططات ورسوم بيانية تفاعلية |
+| 🎨 حركات وأنيميشن سلسة | أنيميشن سلسة بـ Framer Motion |
+| 💬 مساعد ذكي للطقس | مساعد ذكي للطقس |
+| 📍 تحديد الموقع التلقائي | كشف الموقع تلقائيًا |
+| 🔔 تنبيهات حالة الطقس | تنبيهات وإشعارات حالة الطقس |
+| ⭐ المفضلة — حفظ المواقع | احفظ مواقعك المفضلة |
+| 📱 تصميم متجاوب | يعمل على جميع الأجهزة |
+| 🌙 وضع داكن/فاتح | اختر المظهر المناسب لك |
+
+## 🛠️ التقنيات
+
+| التقنية | الاستخدام |
+|---------|-----------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) | إطار العمل الكامل |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | تطوير آمن بالأنواع |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | التصميم |
+| ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=flat) | مكونات واجهة المستخدم |
+| ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white) | ORM لقاعدة البيانات |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) | الحركات والأنيميشن |
+| ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) | النشر والاستضافة |
+
+## 🚀 التشغيل
+
+### المتطلبات
+
+- Node.js 18+ أو Bun
+- npm أو yarn أو bun
 
 ### التثبيت
 
 ```bash
+# استنساخ المستودع
 git clone https://github.com/ziadamr45/Weather-App.git
 cd Weather-App
+
+# تثبيت التبعيات
 npm install
-# إعداد .env من .env.example بمفاتيح API والإعدادات
+
+# إعداد متغيرات البيئة
+cp .env.example .env
+# عدّل ملف .env بمفاتيح API والإعدادات
+
+# تشغيل تهجيرات قاعدة البيانات
 npx prisma migrate dev
+
+# تشغيل خادم التطوير
 npm run dev
 ```
 
-### تجربة مباشرة
+التطبيق سيعمل على `http://localhost:3000`
 
-[weather-app-z-i-a-d.vercel.app](https://weather-app-z-i-a-d.vercel.app)
+### 📜 الرخصة
 
-### المساهمة
-
-راجع [CONTRIBUTING.md](CONTRIBUTING.md)
-
-### الرخصة
-
-هذا المشروع يستخدم [رخصة عرض المصدر](LICENSE.md) — © 2026 زياد عمرو
+هذا المشروع متاح **للعرض والاطلاع فقط**. لا يمكن نسخ الكود أو إعادة إنتاجه أو استخدامه في مشاريع أخرى.
 
 ---
 
@@ -79,48 +112,72 @@ npm run dev
 
 ---
 
-## 🌐 English
+## English
+
+
+**Weather App** is a professional weather web application with smart and advanced forecasts. It features an AI weather assistant that answers your queries, interactive charts for climate data visualization, and full bilingual support in Arabic and English. The app stands out with smooth animations, automatic location detection, weather alerts, and the ability to save favorite locations. Built with Next.js and TypeScript for a fast and reliable experience.
 
 ### Features
 
-- 🌤️ **Accurate weather forecasts** — Precise and reliable climate forecasts
-- 🤖 **Smart weather analysis** — Advanced and intelligent weather analysis
-- 🌍 **Bilingual UI (Arabic/English)** — Interface in Arabic and English
-- 📊 **Interactive charts & graphs** — Interactive charts and visualizations
-- 🎨 **Smooth animations** — Smooth animations with Framer Motion
-- 💬 **Smart weather assistant** — AI-powered weather assistant
-- 📍 **Auto location detection** — Automatic location detection
-- 🔔 **Weather alerts** — Weather alerts and notifications
-- ⭐ **Favorites — save locations** — Save your favorite locations
-- 📱 **Responsive design** — Works on all devices
-- 🌙 **Dark/Light mode** — Choose your preferred theme
+| Feature | Description |
+|---------|-------------|
+| 🌤️ Accurate weather forecasts | Precise and reliable climate forecasts |
+| 🤖 Smart weather analysis | Advanced and intelligent weather analysis |
+| 🌍 Bilingual UI (Arabic/English) | Interface in Arabic and English |
+| 📊 Interactive charts & graphs | Interactive charts and visualizations |
+| 🎨 Smooth animations | Smooth animations with Framer Motion |
+| 💬 Smart weather assistant | AI-powered weather assistant |
+| 📍 Auto location detection | Automatic location detection |
+| 🔔 Weather alerts | Weather alerts and notifications |
+| ⭐ Favorites — save locations | Save your favorite locations |
+| 📱 Responsive design | Works on all devices |
+| 🌙 Dark/Light mode | Choose your preferred theme |
 
-### Technologies
+### Tech Stack
 
-- Next.js, TypeScript, Tailwind CSS, shadcn/ui, Prisma, Framer Motion, Vercel
+| Technology | Purpose |
+|------------|---------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) | Fullstack Framework |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | Type-safe Development |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | Styling |
+| ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=flat) | UI Components |
+| ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white) | Database ORM |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) | Animations |
+| ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) | Deployment |
 
-### Installation
+### Getting Started
+
+#### Prerequisites
+
+- Node.js 18+ or Bun
+- npm, yarn, or bun
+
+#### Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/ziadamr45/Weather-App.git
 cd Weather-App
+
+# Install dependencies
 npm install
-# Set up .env from .env.example with weather API keys and configuration
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your weather API keys and configuration
+
+# Run database migrations
 npx prisma migrate dev
+
+# Start development server
 npm run dev
 ```
 
-### Live Demo
-
-[weather-app-z-i-a-d.vercel.app](https://weather-app-z-i-a-d.vercel.app)
-
-### Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+The app will be available at `http://localhost:3000`
 
 ### License
 
-This project uses [Source Available License](LICENSE.md) — © 2026 Ziad Amr
+This project is available for **viewing and reference only**. The code cannot be copied, reproduced, or used in other projects.
 
 ---
 
