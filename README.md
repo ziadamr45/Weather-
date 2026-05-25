@@ -10,7 +10,7 @@
 ### تطبيق ويب احترافي لمعرفة حالة الطقس بتحليلات طقس متقدمة
 ### Professional weather web app with smart forecasts, bilingual UI & beautiful animations
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-0a5c5c?style=for-the-badge&logo=vercel&logoColor=white)](https://weather-app-z-i-a-d.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-0a5c5c?style=for-the-badge&logo=vercel&logoColor=white)](https://weather-sand-phi.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ziadamr45/Weather-App)
 
 </div>
